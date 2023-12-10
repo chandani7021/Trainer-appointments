@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Trainer-appointments/static/css/main.34d4ebbd.css",
+    "main.js": "/Trainer-appointments/static/js/main.d9facfe9.js",
+    "static/media/bg.gif": "/Trainer-appointments/static/media/bg.f5d9312c79212dc2509f.gif",
+    "index.html": "/Trainer-appointments/index.html",
+    "main.34d4ebbd.css.map": "/Trainer-appointments/static/css/main.34d4ebbd.css.map",
+    "main.d9facfe9.js.map": "/Trainer-appointments/static/js/main.d9facfe9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34d4ebbd.css",
+    "static/js/main.d9facfe9.js"
+  ]
+}
