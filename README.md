@@ -1,70 +1,132 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Fitness Trainer Appointment Management
 
-## Available Scripts
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+This web application offers fitness instructors an easy-to-use interface for effectively scheduling client appointments. Trainers have access to add, update, and remove appointments as well as client information. The app has a cutting-edge, responsive user interface and was created with React.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `npm run eject`
+### 1. User Interface (UI)
+-Modern and responsive grid layout.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-Each row corresponds to a different client.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-Editable fields include First Name, Last Name, Location, and Appointments.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2. Adding Appointments
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-Intuitive mechanism to add new appointments.
 
-## Learn More
+-Clearly labeled button/icon for each client to initiate the appointment creation process.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-Date and time picker for selecting appointment date and time.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 3. Editing Appointments
+-Easy editing of existing appointments for clients.
 
-### Code Splitting
+-Ability to edit both the date and time of existing appointments.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+-Inline editing of client information within the grid.
 
-### Analyzing the Bundle Size
+### 4. Deleting Appointments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+-Straightforward method to delete individual appointments.
 
-### Making a Progressive Web App
+-Confirmation step to prevent accidental deletions.
+### 5. Appointments Field
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+-Displays all scheduled date-times for each client.
 
-### Advanced Configuration
+-Clear and organized display for multiple appointments.
+### 6. User-Friendly Experience
+-Informative error messages and notifications for successful actions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+### 7. Calendar Page (Bonus Assignment)
+-Calendar page for trainers to view scheduled appointments using FullCalender.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Accessible by clicking the "Show -Calendar" button on the initial page.
 
-### `npm run build` fails to minify
+Each appointment entry displays the client's name for easy reference.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Demo
+
+Live Demo: https://chandani7021.github.io/Trainer-appointments/
+
+
+## Tech Stack
+
+-React.JS
+
+-Redux
+
+
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/chandani7021/Trainer-Website.git
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies.
+
+```bash
+   npm install 
+```
+
+To run 
+
+```bash
+  npm start
+```
+
+
+
+
+## Screenshots
+
+Here are screenshorts of working of App
+
+![image](https://github.com/chandani7021/Trainer-appointments/assets/69253701/15621f28-7c75-4a45-80c0-5bc2a229bb0e)
+
+![image](https://github.com/chandani7021/Trainer-appointments/assets/69253701/f131e8a7-9cf9-4f30-b44e-4d103795b243)
+
+![image](https://github.com/chandani7021/Trainer-appointments/assets/69253701/daedcbc0-efdc-49bb-87de-326d821b4c7e)
+
+![image](https://github.com/chandani7021/Trainer-appointments/assets/69253701/4016479a-3ac8-4231-977b-5eeb6ea2230b)
+
+![image](https://github.com/chandani7021/Trainer-appointments/assets/69253701/bfda8da6-e9d2-4efb-b491-5823ace04cab)
+
+![image](https://github.com/chandani7021/Trainer-appointments/assets/69253701/6cfaf50c-af65-4b6b-9f37-fdb753848210)
+
+![image](https://github.com/chandani7021/Trainer-appointments/assets/69253701/207349dc-c168-48b8-8114-78833ab14d47)
+
+![image](https://github.com/chandani7021/Trainer-appointments/assets/69253701/8c71b849-255f-49cd-963f-fdf51ea2231c)
+
+![image](https://github.com/chandani7021/Trainer-appointments/assets/69253701/8641c7c7-846b-439a-b613-7b49aac0cb15)
+
+![image](https://github.com/chandani7021/Trainer-appointments/assets/69253701/4a106dd7-ef78-430f-95ca-6ffb70f94b63)
+
+![image](https://github.com/chandani7021/Trainer-appointments/assets/69253701/eed89483-4f15-4584-9a24-2332f00f3981)
+
+![image](https://github.com/chandani7021/Trainer-appointments/assets/69253701/a19511a2-ca05-4fad-b015-b6adb1eb7c9a)
+
+![image](https://github.com/chandani7021/Trainer-appointments/assets/69253701/1c376210-bc1d-46f7-b7e6-f464d4e1988c)
