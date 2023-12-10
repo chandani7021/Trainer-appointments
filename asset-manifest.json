@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Trainer-appointments/static/css/main.34d4ebbd.css",
-    "main.js": "/Trainer-appointments/static/js/main.58b143b2.js",
+    "main.js": "/Trainer-appointments/static/js/main.fc339500.js",
     "static/media/bg.gif": "/Trainer-appointments/static/media/bg.f5d9312c79212dc2509f.gif",
     "index.html": "/Trainer-appointments/index.html",
     "main.34d4ebbd.css.map": "/Trainer-appointments/static/css/main.34d4ebbd.css.map",
-    "main.58b143b2.js.map": "/Trainer-appointments/static/js/main.58b143b2.js.map"
+    "main.fc339500.js.map": "/Trainer-appointments/static/js/main.fc339500.js.map"
   },
   "entrypoints": [
     "static/css/main.34d4ebbd.css",
-    "static/js/main.58b143b2.js"
+    "static/js/main.fc339500.js"
   ]
 }
